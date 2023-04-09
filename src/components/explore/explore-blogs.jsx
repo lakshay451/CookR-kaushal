@@ -24,7 +24,7 @@ function ExploreBlogs(props) {
             body: urlencoded,
         };
 
-        fetch("http://localhost:4000/explore", requestOptions)
+        fetch("https://cookr-backend-new.onrender.com/explore", requestOptions)
             .then(response => response.text())
             .then(result => {
                 if (result != 'error') {

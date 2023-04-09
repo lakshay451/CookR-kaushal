@@ -22,7 +22,7 @@ function Blogs() {
       body: urlencoded,
     };
 
-    fetch("http://localhost:4000/getBlog", requestOptions)
+    fetch("https://cookr-backend-new.onrender.com/getBlog", requestOptions)
       .then(response => response.text())
       .then(result => {
         const newDetail = JSON.parse(result);

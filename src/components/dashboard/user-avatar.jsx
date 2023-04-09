@@ -18,7 +18,7 @@ function UserAvatar(props) {
             body: urlencoded,
         };
 
-        fetch("http://localhost:4000/logout", requestOptions)
+        fetch("https://cookr-backend-new.onrender.com/logout", requestOptions)
             .then(response => response)
             .then((result)=>{
                 console.log(result);

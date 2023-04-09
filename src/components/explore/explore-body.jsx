@@ -63,7 +63,7 @@ function ExploreBody() {
       body: urlencoded,
     };
 
-    fetch("http://localhost:4000/getPageCount", requestOptions)
+    fetch("https://cookr-backend-new.onrender.com/getPageCount", requestOptions)
       .then(response => response.text())
       .then(result => {
         const newResult = JSON.parse(result);

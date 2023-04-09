@@ -21,7 +21,7 @@ function Favourite() {
             body: urlencoded,
         };
 
-        fetch("http://localhost:4000/getfavourites", requestOptions)
+        fetch("https://cookr-backend-new.onrender.com/getfavourites", requestOptions)
             .then(response => response.text())
             .then(result => {
                 const newResult = JSON.parse(result);

@@ -28,7 +28,7 @@ function Body() {
             headers: myHeaders,
             body: urlencoded
         };
-        fetch("http://localhost:4000/getProfile", requestOptions)
+        fetch("https://cookr-backend-new.onrender.com/getProfile", requestOptions)
             .then(response => response.text())
             .then(result => {
                 const obtainedDetail = JSON.parse(result);
@@ -62,7 +62,7 @@ function Body() {
             body: urlencoded,
         };
 
-        fetch("http://localhost:4000/profile", requestOptions)
+        fetch("https://cookr-backend-new.onrender.com/profile", requestOptions)
             .then(response => response)
             .then(result => {
                 if(result.status==200){
