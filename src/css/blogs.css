@@ -1,0 +1,32 @@
+.blog-body-wrapper{
+    margin-top: 10px;
+}
+.blog-body-wrapper h1{
+    font-weight: 700;
+}
+
+.blog-body-wrapper .information-wrapper{
+    margin-top: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+    box-shadow: 0 2px 20px rgb(49 54 68 / 9%);
+    padding: 20px;
+}
+
+.information-wrapper .information-wrapper{
+    margin-bottom: 5px;
+}
+
+.information-wrapper h6{
+    font-weight: 700;
+    color: #b368e6;
+}
+
+.blog-body-wrapper .directions{
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+    box-shadow: 0 2px 20px rgb(49 54 68 / 9%);
+    padding: 20px;
+}

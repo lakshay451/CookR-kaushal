@@ -1,0 +1,94 @@
+.favourites{
+    padding: 20px 0 10px 0px;
+}
+
+.favourites h4{
+    color: black;
+    font-weight: 600;
+}
+
+.favourites .wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.favourites i{
+    vertical-align:inherit;
+    padding-left: 5px;
+}
+.favourites .wrapper i{
+    vertical-align: top !important;
+    color: gold;
+}
+.workspace-container{
+    padding-top: 10px;
+}
+
+.workspace-container .btn{
+    background-color: #b368e6;
+    border: none;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0 2px 40px #888;
+}
+
+.workspace-container .btn:hover{
+    background-color: white;
+    color: #b368e6;
+    font-weight: 700;
+}
+
+.workspace-table{
+    border-radius: 8px;
+    box-shadow: 0 2px 20px rgb(49 54 68 / 9%);
+    background-color: #fbfbfb;   
+    
+}
+.workspace-table .table-container{
+    padding: 10px 0px 0px 0px;
+    line-height: 2.5;
+}
+
+.table-item:hover{
+    background-color: #b368e6;
+    color: white;
+}
+
+tr:last-of-type{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    /*any other style*/
+}
+
+
+
+.your-recipe{
+    padding: 20px 0 10px 0px;
+}
+
+.your-recipe  h4{
+    color: black;
+    font-weight: 600;
+}
+
+
+.your-recipe .wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.your-recipe .wrapper i{
+    color: black;
+    padding: 15px;
+    border-radius: 40px;
+    vertical-align: middle;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0 0 10px 3px #888;
+    margin-left: 10px;
+}
+
+.your-recipe .wrapper i:hover{
+    background-color: #b368e6;
+    color: white;
+}

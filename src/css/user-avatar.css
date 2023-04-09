@@ -1,0 +1,10 @@
+.user-avatar{
+    background-color: transparent !important; 
+}
+
+.user-avatar img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+}
